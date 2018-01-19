@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "voting.css" />
+
+</head>
+<body>
+<div class="main">
+<h1>Online voting</h1>
+<form method="post" action="">
+
+<input type="submit" name="s1" value="sajal">&emsp;&emsp;
+<input type="submit" name="s2" value="saurav">&emsp;&emsp;
+<input type="submit" name="s3" value="sam">
+
+</form>
+</div>
+
+</body>
+</html>
+<?php
+include 'c.php';
+echo "you vote to sajal";
+
+if(isset($_POST['s1'])){
+ $sajal=mysqli_query($connection,"UPDATE vote SET sajal = sajal + 1");
+ if($sajal)
+ {
+   echo "you vote to sajal";
+ }
+}
+?>

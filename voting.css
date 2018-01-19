@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding:0;	
+	}
+
+.main{
+	width:500px;
+	height:200px;
+	background-color:gray;
+	text-align:center;
+	margin:0 auto;
+	padding-top:25px;
+	color:white;
+	}
+	
+.main input[type="submit"]{
+	width:120px;
+	height:40px;
+	background-color:skyblue;
+	border-radius: 5px;
+	border:0px;
+	font-weight: bolder ;
+	opacity: 0.5;
+	}
+
+.main input[type="submit"]:hover{
+	opacity:1;
+	box-shadow:inset -5px -5px rgba(0,0,0,0.4);
+	color:yellow;
+	background-color:red;
+}
+#mainc{
+	width:500px;
+	height:auto;
+	background-color:green;
+	margin:0 auto;
+	}
+.m1{
+	margin-left:10px;
+	font-size:25px;}

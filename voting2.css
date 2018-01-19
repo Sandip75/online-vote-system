@@ -1,0 +1,16 @@
+.rrr{
+	width:500px;
+	height:auto;
+}
+.rrr img{
+	width:100px;
+	height:100px;
+	border-radius:20px;
+	border:outset 5px white;
+	margin-left:20px;
+	}
+.ff{
+	color:white;
+	font-size:20px;
+	text-align:center;	
+	}	
